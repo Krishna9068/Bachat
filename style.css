@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: radial-gradient(circle, #f5d498, #e3f398);
+}
+
+header {
+    background: radial-gradient(circle, #90e8b4, #a3f4ee);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(246, 243, 190);
+}
+a:active {
+  background-color: orange;
+}
+a{
+    transition: background-color 0.3s ease;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #76bfea;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: beige;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+        .container {
+            padding: 20px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .expense-list {
+            margin-top: 20px;
+        }
+
+        .expense-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }

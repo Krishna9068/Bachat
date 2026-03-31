@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+<header>
+    <h1>Dashboard</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="analytics.html">Analytics</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Set Monthly Budget</h3>
+        <input type="number" id="budgetInput" placeholder="Enter budget">
+        <button onclick="setBudget()">Set Budget</button>
+        <p>Budget: $<span id="budget">0</span></p>
+    </div>
+
+    <div class="card">
+        <h3>Add Expense</h3>
+        <input type="text" id="desc" placeholder="Where did you spend?">
+        <input type="number" id="amount" placeholder="Amount">
+        <button onclick="addExpense()">Add</button>
+    </div>
+
+    <div class="card">
+        <h3>Total Spent</h3>
+        <p>$<span id="total">0</span></p>
+    </div>
+
+    <div class="card expense-list">
+        <h3>Expense Log</h3>
+        <div id="list"></div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
